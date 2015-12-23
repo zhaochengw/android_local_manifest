@@ -50,7 +50,6 @@
   <remove-project name="platform/hardware/nvidia/tegra124" />
   <remove-project name="platform/hardware/qcom/camera" />
   <remove-project name="platform/hardware/qcom/keymaster" />
-  <remove-project name="platform/hardware/qcom/msm8960" />
   <remove-project name="platform/hardware/qcom/sensors" />
   <remove-project name="platform/hardware/samsung_slsi/exynos5" />
   <remove-project name="platform/hardware/ti/omap3" />
