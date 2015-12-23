@@ -106,16 +106,6 @@
   <remove-project name="device/qcom/common" />
   <project name="device/qcom/common" />
 
-  <!-- device -->
-  <project groups="pdk" name="mitwo-dev/android_device_xiaomi_aries" path="device/xiaomi/aries" remote="github" />
-  <project groups="pdk" name="mitwo-dev/android_device_xiaomi_msm8960-common" path="device/xiaomi/msm8960-common" remote="github" />
-
-  <!-- kernel -->
-  <project name="mitwo-dev/android_kernel_xiaomi_msm8960" path="kernel/xiaomi/msm8960" remote="github" />
-
-  <!-- proprietaries -->
-  <project name="mitwo-dev/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" />
-
   <!-- HAL's -->
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/display" />
