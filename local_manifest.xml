@@ -137,24 +137,18 @@
   <!-- packages -->
   <remove-project name="platform/packages/apps/Browser" />
   <remove-project name="platform/packages/apps/ContactsCommon" />
-  <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/InCallUI" />
   <remove-project name="platform/packages/apps/Launcher3" />
-  <remove-project name="platform/packages/apps/Mms" />
   <remove-project name="platform/packages/apps/PackageInstaller" />
-  <remove-project name="platform/packages/apps/PhoneCommon" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/SoundRecorder" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
 
   <project path="packages/apps/Browser" name="mitwo-dev/platform_packages_apps_Browser" remote="github" />
   <project path="packages/apps/ContactsCommon" name="mitwo-dev/platform_packages_apps_ContactsCommon" remote="github" />
-  <project path="packages/apps/Dialer" name="mitwo-dev/platform_packages_apps_Dialer" remote="github" />
   <project path="packages/apps/InCallUI" name="mitwo-dev/platform_packages_apps_InCallUI" remote="github" />
   <project path="packages/apps/Launcher3" name="mitwo-dev/platform_packages_apps_Launcher3" remote="github" />
-  <project path="packages/apps/Mms" name="mitwo-dev/platform_packages_apps_Mms" remote="github" />
   <project path="packages/apps/PackageInstaller" name="mitwo-dev/platform_packages_apps_PackageInstaller" remote="github" />
-  <project path="packages/apps/PhoneCommon" name="mitwo-dev/platform_packages_apps_PhoneCommon" remote="github" />
   <project path="packages/apps/Settings" name="mitwo-dev/platform_packages_apps_Settings" remote="github" />
   <project path="packages/apps/SoundRecorder" name="mitwo-dev/platform_packages_apps_SoundRecorder" remote="github" />
   <project path="packages/inputmethods/LatinIME" name="CyanogenMod/android_packages_inputmethods_LatinIME" remote="github" revision="cm-12.1" />
@@ -186,6 +180,11 @@
   <remove-project name="platform/art" />
   <project groups="pdk" path="art" name="zhaochengw/platform_art" remote="github" />
 
+  <!-- sepolicy -->
+  <remove-project name="device/qcom/sepolicy" />
+  <remove-project name="platform/external/sepolicy" />
+  <project name="zhaochengw/android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="github" />
+  <project groups="pdk" name="zhaochengw/android_external_sepolicy" path="external/sepolicy" remote="github" />
 
   <!-- vendor -->
   <remove-project name="platform/vendor/qcom-opensource/fm" />
